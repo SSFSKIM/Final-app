@@ -70,7 +70,7 @@
                                             </textView>
                                         </subviews>
                                     </stackView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Season WAR" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TtX-tf-EMx">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Season IP" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TtX-tf-EMx">
                                         <rect key="frame" x="0.0" y="356" width="374" height="67"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
@@ -120,6 +120,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f9F-nV-yta" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="745" y="5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="J0m-Hw-MDl">
+            <objects>
+                <viewController id="wdX-RM-O4r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zos-Ec-Vv9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="yPe-Ai-QlX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xsh-kP-Mto" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1433" y="5"/>
         </scene>
     </scenes>
     <resources>
