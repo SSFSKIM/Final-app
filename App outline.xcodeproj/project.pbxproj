@@ -13,6 +13,12 @@
 		AA61C9FB2BDDB9C3005D2CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA61C9F92BDDB9C3005D2CDD /* Main.storyboard */; };
 		AA61C9FD2BDDB9CE005D2CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA61C9FC2BDDB9CE005D2CDD /* Assets.xcassets */; };
 		AA61CA002BDDB9CE005D2CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA61C9FE2BDDB9CE005D2CDD /* LaunchScreen.storyboard */; };
+		AA6803712BE96102006DAE6B /* playerstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6803702BE96102006DAE6B /* playerstruct.swift */; };
+		AA6803752BF2A137006DAE6B /* OutsThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6803742BF2A137006DAE6B /* OutsThreeViewController.swift */; };
+		AA6803772BF2A1A0006DAE6B /* CorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6803762BF2A1A0006DAE6B /* CorrectViewController.swift */; };
+		AA6803792BF2A2D9006DAE6B /* WrongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6803782BF2A2D9006DAE6B /* WrongViewController.swift */; };
+		AABA7A372BFBD67F00158618 /* hitdata.json in Resources */ = {isa = PBXBuildFile; fileRef = AABA7A362BFBD67F00158618 /* hitdata.json */; };
+		AABA7A392BFBD68500158618 /* pitchdata.json in Resources */ = {isa = PBXBuildFile; fileRef = AABA7A382BFBD68500158618 /* pitchdata.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		AA61C9FC2BDDB9CE005D2CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA61C9FF2BDDB9CE005D2CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA61CA012BDDB9CE005D2CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6803702BE96102006DAE6B /* playerstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerstruct.swift; sourceTree = "<group>"; };
+		AA6803742BF2A137006DAE6B /* OutsThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsThreeViewController.swift; sourceTree = "<group>"; };
+		AA6803762BF2A1A0006DAE6B /* CorrectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectViewController.swift; sourceTree = "<group>"; };
+		AA6803782BF2A2D9006DAE6B /* WrongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongViewController.swift; sourceTree = "<group>"; };
+		AABA7A362BFBD67F00158618 /* hitdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hitdata.json; path = ../../../Downloads/hitdata.json; sourceTree = "<group>"; };
+		AABA7A382BFBD68500158618 /* pitchdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pitchdata.json; path = ../../../Downloads/pitchdata.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				AA61C9F52BDDB9C3005D2CDD /* SceneDelegate.swift */,
 				AA61C9F72BDDB9C3005D2CDD /* ViewController.swift */,
 				AA61C9F92BDDB9C3005D2CDD /* Main.storyboard */,
+				AA6803782BF2A2D9006DAE6B /* WrongViewController.swift */,
+				AA6803762BF2A1A0006DAE6B /* CorrectViewController.swift */,
+				AA6803742BF2A137006DAE6B /* OutsThreeViewController.swift */,
+				AA6803702BE96102006DAE6B /* playerstruct.swift */,
+				AABA7A382BFBD68500158618 /* pitchdata.json */,
+				AABA7A362BFBD67F00158618 /* hitdata.json */,
 				AA61C9FC2BDDB9CE005D2CDD /* Assets.xcassets */,
 				AA61C9FE2BDDB9CE005D2CDD /* LaunchScreen.storyboard */,
 				AA61CA012BDDB9CE005D2CDD /* Info.plist */,
@@ -95,7 +113,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					AA61C9EF2BDDB9C3005D2CDD = {
 						CreatedOnToolsVersion = 14.2;
@@ -127,7 +145,9 @@
 			files = (
 				AA61CA002BDDB9CE005D2CDD /* LaunchScreen.storyboard in Resources */,
 				AA61C9FD2BDDB9CE005D2CDD /* Assets.xcassets in Resources */,
+				AABA7A392BFBD68500158618 /* pitchdata.json in Resources */,
 				AA61C9FB2BDDB9C3005D2CDD /* Main.storyboard in Resources */,
+				AABA7A372BFBD67F00158618 /* hitdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6803792BF2A2D9006DAE6B /* WrongViewController.swift in Sources */,
+				AA6803772BF2A1A0006DAE6B /* CorrectViewController.swift in Sources */,
 				AA61C9F82BDDB9C3005D2CDD /* ViewController.swift in Sources */,
+				AA6803752BF2A137006DAE6B /* OutsThreeViewController.swift in Sources */,
+				AA6803712BE96102006DAE6B /* playerstruct.swift in Sources */,
 				AA61C9F42BDDB9C3005D2CDD /* AppDelegate.swift in Sources */,
 				AA61C9F62BDDB9C3005D2CDD /* SceneDelegate.swift in Sources */,
 			);
@@ -202,6 +226,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -262,6 +287,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
